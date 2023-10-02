@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    // border: 1px red solid;
+}
+
+html, body {
+    height: 100%;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    // background-color: #11111f;
+    background-image: linear-gradient(#11111f, #1a1a2f, #11111f);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 12px;
+    color: white;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.full {
+    height: fit-content;
+    width: 100%;
+
+    padding: 24px 4vw;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Vocaloid {
+    background-color: #06d6a0;
+    border: #06d6a0 2px solid;
+}
+.J-Pop {
+    background-color: #ef476f;
+    border: #ef476f 2px solid;
+}
+.Pop {
+    background-color: #118ab2;
+    border: #118ab2 2px solid;
+}
+.Electronica {
+    background-color: #118ab2;
+    border: #118ab2 2px solid;
+}
+

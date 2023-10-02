@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <header class="full">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm-96-32a96 96 0 1 0 192 0 96 96 0 1 0 -192 0zM96 240c0-35 17.5-71.1 45.2-98.8S205 96 240 96c8.8 0 16-7.2 16-16s-7.2-16-16-16c-45.4 0-89.2 22.3-121.5 54.5S64 194.6 64 240c0 8.8 7.2 16 16 16s16-7.2 16-16z"/></svg>
+      <nav>
+        <a href="#"><span>01.</span> Albums</a>
+        <a href="#"><span>02.</span> Artists</a>
+        <a href="#"><span>03.</span> Songs</a>
+        <a href="#" class="help-link">Help</a>
+      </nav>
+    </header>
+
+    <div id="display">
+      <h1>Albums of the Internet</h1>
+      <p>Filter various albums from recent internet-based artists by a number of genres.</p>
+      <div class="filters">
+        <h2>Filter by Genre</h2>
+        <div id="buttons">
+          <button class="filter Vocaloid" data-filter="Vocaloid">Vocaloid</button>
+          <button class="filter J-Pop" data-filter="J-Pop">J-Pop</button>
+          <button class="filter Pop Electronica" data-filter="Pop Electronica">Pop Electronica</button>      
+        </div>
+        <button id="showall" class="show">Show all</button>
+      </div>
+      <div id="albums" class="albums full">
+      </div>
+      </div>
+    </div>
+
+    <footer class="full">
+      <p style="color: #777790; text-align: center; font-size: small;">&copy; Kylee Dicken 2023</p>
+    </footer>
+
+  <script src="lib/jquery-3.7.1.min.js"></script>
+  <script src="app/app.js"></script>
+  </body>
+</html>

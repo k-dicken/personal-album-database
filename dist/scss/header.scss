@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 24px;
+
+    svg {
+        width: 24px;
+        height: 24px;
+        fill: white;
+    }
+
+    nav {
+        a {
+            margin: 20px;
+            text-decoration: none;
+            color: white;
+
+            span {
+                color: #118ab2;
+            }
+        }
+
+        a:hover {
+            font-weight: bold;
+            color: #118ab2;
+            text-decoration: underline;
+        }
+
+        .help-link {
+            color: #777790;
+        }
+
+        .help-link:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #777790;
+        }
+    }
+}

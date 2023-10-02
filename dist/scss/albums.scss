@@ -1,0 +1,67 @@
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    width: fit-content;
+    text-align: left;
+                                           
+    .album {
+        width: 30%;
+        min-width: 200px;
+        margin: 1.6%;
+        position: relative;
+        background-color: #222232;
+        border-radius: 10px;
+        margin-bottom: 36px;
+
+        .tag {
+            color: #22222f;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            position: absolute;
+            font-size: small;
+            margin-top: -14px;
+            margin-left: -14px;
+            // background-color: grey;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+            // min-width: 200px;
+            // min-height: 200px;
+            aspect-ratio: 1 / 1;
+            // margin-bottom: 12px;
+
+            background-color: #118ab2;
+        }
+
+        .text {
+            padding: 18px 18px 24px 18px; 
+
+            h3 {
+                font-size: 22px;
+                font-weight: 900;
+                margin-bottom: 6px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .albums {
+        .album {
+            width: 46%;
+            margin: 2% 2% 36px 2%;
+            min-width: 140px;
+
+
+            img {
+                min-height: 140px;
+                min-width: 140px;
+            }
+        }
+    }
+}
